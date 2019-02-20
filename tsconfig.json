@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es2017", 
+      "module": "commonjs",
+      "declaration": true, 
+      "sourceMap": true,   
+      "outDir": "lib",
+      "lib": [
+        "dom",
+        "es2017"
+      ],
+      "suppressImplicitAnyIndexErrors": true,
+      "allowSyntheticDefaultImports": true  
+    },
+    "compileOnSave": true,
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "src"
+    ]
+  }

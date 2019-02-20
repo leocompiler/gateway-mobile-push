@@ -1,0 +1,39 @@
+{
+  "name": "gateway-mobile-push",
+  "version": "1.0.0",
+  "description": "Applicaiton to make notification push restfull api ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "debug": "nodemon --exec babel-node --inspect=9226 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocompiler/gateway-mobile-push"
+  },
+  "author": "leocompiler",
+  "license": "ISC",
+  "homepage": "https://github.com/leocompiler/gateway-mobile-push",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "blockchain.info": "^2.8.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "firebase-admin": "^6.0.0",
+    "i18n-express": "^1.1.3",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.7",
+    "monk": "^6.0.6",
+    "mysql2": "^1.5.1",
+    "node-schedule": "^1.2.5",
+    "qrcode": "^1.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.23.2",
+    "speakeasy": "^2.0.0"
+  }
+}
