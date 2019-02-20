@@ -22,7 +22,7 @@ app.use( bodyParser.urlencoded({
 }));
 
 
-app.use('/crimatex/api/push', ResourcesNegocio);
+app.use('/api/push', ResourcesNegocio);
 
 
 app.use(logErrors);
